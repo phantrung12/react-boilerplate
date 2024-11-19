@@ -15,14 +15,14 @@ export const createService = (
   return interceptAuth(baseConfig(baseURL, contentType));
 };
 export const createServiceFormData = (
-  baseURL = process.env.REAC_APP_API_URL,
+  baseURL = process.env.REACT_APP_API_URL,
   contentType = 'multipart/form-data',
 ): AxiosInstance => {
   return interceptAuth(baseConfig(baseURL, contentType));
 };
 
 export const downloadFileService = (
-  baseURL = process.env.REAC_APP_API_URL,
+  baseURL = process.env.REACT_APP_API_URL,
   contentType = 'application/json',
 ): AxiosInstance => {
   const config: AxiosRequestConfig = baseConfig(baseURL, contentType);
@@ -30,7 +30,7 @@ export const downloadFileService = (
   return interceptAuth(config);
 };
 
-const baseConfig = (baseURL = process.env.REAC_APP_API_URL, contentType = 'application/json') => {
+const baseConfig = (baseURL = process.env.REACT_APP_API_URL, contentType = 'application/json') => {
   return {
     baseURL,
     headers: {
