@@ -1,6 +1,6 @@
 # React Boilerplate Demo
 
-Welcome to the React Boilerplate Demo repository! This project serves as a starting point for building modern React applications. It incorporates essential tools and best practices for efficient development, ensuring a scalable and maintainable application structure.
+Welcome to the React Boilerplate! This project serves as a starting point for building modern React applications. It incorporates essential tools and best practices for efficient development, ensuring a scalable and maintainable application structure.
 
 ### Features
 

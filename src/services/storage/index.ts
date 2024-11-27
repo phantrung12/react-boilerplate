@@ -51,7 +51,7 @@ function removeAllItem() {
   }
 }
 
-export const OAUTH_TOKEN = 'access_token';
+export const ACCESS_TOKEN = 'access_token';
 export const SOCKET_TOKEN = 'socket_token';
 export const REFRESH_TOKEN = 'refresh_token';
 export const USER_INFO = 'user_info';
@@ -63,7 +63,7 @@ export default {
   set,
   removeItem,
   removeAllItem,
-  OAUTH_TOKEN,
+  ACCESS_TOKEN,
   SOCKET_TOKEN,
   REFRESH_TOKEN,
   USER_INFO,

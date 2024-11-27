@@ -46,7 +46,7 @@ const Home = () => {
             minHeight: 280,
           }}
         >
-          adasdasd
+          HomePage
           <Outlet />
         </Content>
       </Layout>

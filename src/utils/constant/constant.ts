@@ -1,0 +1,16 @@
+export const yyyymmdd = 'yyyy/MM/DD';
+export const ddmmyyyy = 'DD/MM/yyyy';
+export const yyyymd = 'yyyy/M/D';
+export const YMDHm = 'YYYY/MM/DD HH:mm';
+export const YMDHms = 'YYYY/MM/DD HH:mm:ss';
+export const YMDHma = 'YYYY/MM/DD HH:mm a';
+export const YMD = 'YYYY/MM/DD';
+export const MDY = 'MMM DD, YYYY';
+export const MD = 'MM/DD';
+export const Hma = 'H:mm a';
+export const HHmm = 'HH:mm';
+export const YM = 'YYYY/MM';
+export const DMYHms = 'DD/MM/YYYY HH:mm:ss';
+export const DMYHm = 'DD/MM/YYYY HH:mm';
+export const DMYHma = 'DD/MM/YYYY HH:mm a';
+export const DMY = 'DD/MM/YYYY';
